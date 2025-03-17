@@ -3,7 +3,7 @@
 # (https://www.sentient-aiep.xyz/)
 # Златимир Георгиев Петров
 ```
-ПМПГ“Св. Климент Охридски“ гр. Монтана 12 клас
+ПМПГ “Св. Климент Охридски“ гр. Монтана 12 клас
 ```
 ![image](https://github.com/user-attachments/assets/edb6f4b3-b48b-407f-a036-32f5a8a46b2c)
 <img width="1590" alt="banner" src="https://github.com/user-attachments/assets/6315ec3c-d845-4fae-b406-e1dc7f547da9" />
