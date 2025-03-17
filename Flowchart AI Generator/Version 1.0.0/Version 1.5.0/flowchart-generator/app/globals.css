@@ -1,0 +1,195 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --foreground-rgb: 0, 0, 0;
+  --background-start-rgb: 214, 219, 220;
+  --background-end-rgb: 255, 255, 255;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --foreground-rgb: 255, 255, 255;
+    --background-start-rgb: 0, 0, 0;
+    --background-end-rgb: 0, 0, 0;
+  }
+}
+
+/* Reset all margins and padding */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Ensure html and body take up full viewport */
+html,
+body {
+  height: 100%;
+  width: 100%;
+  overflow: hidden;
+  background-color: #0c1b36; /* Match the blue-950 color */
+}
+
+/* Prevent text size adjustment on orientation change */
+html {
+  -webkit-text-size-adjust: 100%;
+  text-size-adjust: 100%;
+}
+
+/* Improve touch targets on mobile */
+@media (max-width: 768px) {
+  button,
+  [role="button"],
+  input,
+  select,
+  textarea {
+    font-size: 16px; /* Prevents iOS zoom on focus */
+    min-height: 44px; /* Minimum touch target size */
+  }
+
+  /* Prevent pull-to-refresh on mobile */
+  body {
+    overscroll-behavior-y: contain;
+  }
+
+  /* Improve scrolling experience */
+  * {
+    -webkit-overflow-scrolling: touch;
+  }
+
+  /* Improve textarea scrolling on mobile */
+  textarea {
+    -webkit-overflow-scrolling: touch;
+    scrollbar-width: thin;
+  }
+
+  /* Custom scrollbar for mobile */
+  ::-webkit-scrollbar {
+    width: 4px;
+    height: 4px;
+  }
+
+  ::-webkit-scrollbar-track {
+    background: rgba(0, 0, 0, 0.1);
+    border-radius: 4px;
+  }
+
+  ::-webkit-scrollbar-thumb {
+    background: rgba(59, 130, 246, 0.5);
+    border-radius: 4px;
+  }
+
+  .enhanced-prompt-container {
+    margin-bottom: 70px; /* Extra space at bottom on mobile */
+  }
+
+  /* Make scrollbars more visible on mobile */
+  ::-webkit-scrollbar {
+    width: 5px;
+    height: 5px;
+  }
+
+  ::-webkit-scrollbar-thumb {
+    background: rgba(59, 130, 246, 0.5);
+    border-radius: 4px;
+  }
+
+  /* Ensure proper spacing for buttons */
+  .button-container {
+    margin-top: 16px;
+    padding-bottom: 16px;
+  }
+
+  /* Better scrolling for the main content areas */
+  .flex-1.flex.flex-col.p-4.pb-6 {
+    -webkit-overflow-scrolling: touch;
+    overflow-y: auto;
+    max-height: calc(100vh - 180px); /* Adjust based on your header/footer height */
+  }
+
+  /* Add some bottom padding to ensure content isn't hidden behind fixed elements */
+  .flex-1.flex.flex-col.p-4.pb-6 {
+    padding-bottom: 24px; /* Reduced from 100px to 24px */
+  }
+
+  /* Ensure enhanced prompt container doesn't overlap with buttons */
+  .mt-6.p-4.bg-gradient-to-r {
+    margin-bottom: 16px; /* Reduced from 24px to 16px */
+  }
+
+  /* Add more compact spacing for mobile */
+  .gap-4 {
+    gap: 0.75rem; /* Smaller gap on mobile */
+  }
+
+  /* Make panels use more of the available space */
+  .p-4 {
+    padding: 0.75rem; /* Smaller padding on mobile */
+  }
+}
+
+/* Fix for iOS 100vh issue */
+.h-screen {
+  height: 100vh;
+  height: -webkit-fill-available;
+  height: stretch;
+}
+
+/* Prevent content from being hidden under fixed elements */
+.pb-safe {
+  padding-bottom: env(safe-area-inset-bottom);
+}
+
+.pt-safe {
+  padding-top: env(safe-area-inset-top);
+}
+
+/* Responsive font sizes */
+@layer base {
+  html {
+    font-size: 16px;
+  }
+
+  @media (max-width: 640px) {
+    html {
+      font-size: 14px;
+    }
+  }
+
+  h1 {
+    @apply text-2xl font-bold md:text-3xl;
+  }
+
+  h2 {
+    @apply text-xl font-semibold md:text-2xl;
+  }
+
+  h3 {
+    @apply text-lg font-medium md:text-xl;
+  }
+}
+
+/* Custom scrollbar for better mobile experience */
+@media (max-width: 768px) {
+  ::-webkit-scrollbar {
+    width: 6px;
+    height: 6px;
+  }
+
+  ::-webkit-scrollbar-track {
+    background: rgba(0, 0, 0, 0.1);
+  }
+
+  ::-webkit-scrollbar-thumb {
+    background: rgba(0, 0, 0, 0.2);
+    border-radius: 3px;
+  }
+}
+
+/* Make placeholder text more transparent */
+::placeholder {
+  opacity: 0.2 !important;
+}
+
