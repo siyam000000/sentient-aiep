@@ -1,0 +1,9 @@
+{
+  "regions": ["sfo1"],
+  "functions": {
+    "app/api/route.ts": {
+      "maxDuration": 60
+    }
+  }
+}
+
