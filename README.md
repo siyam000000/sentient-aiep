@@ -1,4 +1,6 @@
 ![image](https://github.com/user-attachments/assets/edb6f4b3-b48b-407f-a036-32f5a8a46b2c)
+<img width="1590" alt="banner" src="https://github.com/user-attachments/assets/6315ec3c-d845-4fae-b406-e1dc7f547da9" />
+<img width="1280" alt="CodeIDE" src="https://github.com/user-attachments/assets/21a3498c-d1fe-4e56-9fa4-2c3dc19a9206" />
 
 #### ТЕМА НА ПРОЕКТА :
 
