@@ -1,6 +1,6 @@
 #### ТЕМА НА ПРОЕКТА :
 ## Sentient AI
-# (https://www.sentient-aiep.xyz/)
+# https://www.sentient-aiep.xyz/
 # Златимир Георгиев Петров
 ```
 ПМПГ “Св. Климент Охридски“ гр. Монтана 12 клас
